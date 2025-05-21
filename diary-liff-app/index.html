@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>日記アプリ</title>
+  <meta charset="UTF-8" />
+  <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+  <script type="module" src="./main.js"></script>
+</head>
+<body>
+  <h1>今日の日記</h1>
+  <input type="text" id="title" placeholder="タイトル"><br>
+  <textarea id="content" placeholder="本文"></textarea><br>
+  <label><input type="checkbox" id="isPublic"> 公開</label><br>
+  <button id="submit">投稿</button>
+
+  <h2>過去の日記</h2>
+  <ul id="diaryList"></ul>
+</body>
+</html>
